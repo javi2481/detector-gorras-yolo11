@@ -1,0 +1,30 @@
+fuente,foto,tipo,IoU,confianza
+test,Gorra_5A_jpg,TP buena caja,0.88,0.88
+test,Gorra_5A_jpg,Falso positivo,0.0,0.66
+test,Gorra_5A_jpg,Falso positivo,0.0,0.45
+test,gorra_14v_jpeg,TP buena caja,0.84,0.87
+test,gorra_14v_jpeg,Falso negativo,0.0,
+test,gorra_2p_jpeg,TP buena caja,0.79,0.29
+test,gorra_3v_jpeg,TP buena caja,0.83,0.89
+test,gorra_3v_jpeg,Falso positivo,0.0,0.34
+test,gorra_4p_jpeg,TP buena caja,0.95,0.82
+test,gorra_5m_jpeg,TP buena caja,0.86,0.79
+test,gorra_5m_jpeg,Falso positivo,0.0,0.6
+test,gorra_5m_jpeg,Falso positivo,0.0,0.32
+valid,Gorra_6A_jpg,TP buena caja,0.89,0.74
+valid,gorra_10p_jpeg,Caja mal ajustada,0.69,0.85
+valid,gorra_11p_jpeg,TP buena caja,0.94,0.9
+valid,gorra_11p_jpeg,Falso positivo,0.0,0.39
+valid,gorra_12v_jpeg,TP buena caja,0.86,0.91
+valid,gorra_12v_jpeg,TP buena caja,0.79,0.68
+valid,gorra_14m_png,Falso negativo,0.0,
+valid,gorra_15v_jpeg,TP buena caja,0.9,0.8
+valid,gorra_17p_jpeg,Caja mal ajustada,0.56,0.84
+valid,gorra_1m_jpeg,TP buena caja,0.95,0.88
+valid,gorra_1m_jpeg,Falso positivo,0.0,0.58
+valid,gorra_1v_jpeg,TP buena caja,0.94,0.81
+valid,gorra_6v_jpeg,TP buena caja,0.95,0.88
+valid,gorra_7p_jpeg,TP buena caja,0.91,0.87
+valid,gorra_8p_jpeg,TP buena caja,0.82,0.82
+valid,gorra_9v_jpeg,TP buena caja,0.86,0.82
+valid,gorra_9v_jpeg,TP buena caja,0.91,0.8

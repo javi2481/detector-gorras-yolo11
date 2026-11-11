@@ -1,0 +1,5 @@
+ultralytics==8.4.210
+pandas
+matplotlib
+pyyaml
+pillow

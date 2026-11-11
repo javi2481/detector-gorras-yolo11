@@ -1,0 +1,16 @@
+# Salidas de Ultralytics y dataset descargado de Roboflow
+runs/
+TP2-AAII-Deteccion-Gorra-*/
+*.pt
+!modelos/**/*.pt
+
+# Secretos
+.env
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Caches de Ultralytics y carpeta de trabajo con las salidas originales de Drive
+*.cache
+data-final/

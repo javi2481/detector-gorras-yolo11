@@ -1,0 +1,9 @@
+# Dataset exported from Roboflow (project tp2-aaii-deteccion-gorra, version 2, format yolov11).
+# Paths are relative to this file; the notebook rewrites them as absolute at runtime.
+path: .
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- Gorra
