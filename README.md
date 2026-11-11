@@ -2,6 +2,8 @@
 
 Fine-tuning de YOLO11 para detectar **gorras con visera**, una clase que el modelo pre-entrenado en COCO no conoce.
 
+**La consigna, en una línea:** elegir una clase que no esté en COCO, armar y anotar un dataset propio en Roboflow, verificar que el modelo pre-entrenado no la detecta, hacer fine-tuning de YOLO11, comparar al menos dos configuraciones con precision, recall, mAP@50 y mAP@50-95, y analizar aciertos y errores sobre test y sobre fotos "in the wild".
+
 | | |
 |---|---|
 | **Institución** | ISTEA |
@@ -11,7 +13,7 @@ Fine-tuning de YOLO11 para detectar **gorras con visera**, una clase que el mode
 | **Entrega** | Trabajo Práctico 2 — Visión por Computadora · 13/11/2026 |
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/javi2481/detector-gorras-yolo11/blob/main/notebooks/TP2_Detector_Gorras.ipynb)
-![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-8.4.210-111F68)
 ![YOLO11](https://img.shields.io/badge/modelo-YOLO11n%20%7C%20YOLO11s-00A67E)
 [![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-yellow)](LICENSE)
@@ -265,7 +267,7 @@ El detector funciona bien con fotos parecidas a las de entrenamiento y falla fue
 >
 > Para que cualquiera pueda reproducirlo sin cuentas ni permisos, este repo trae todo incluido: el export de Roboflow (versión 2) en `datos/dataset/`, las fotos de prueba en `datos/fotos_prueba/` y los pesos entrenados en `modelos/`. **No hace falta Roboflow, Google Drive ni ninguna API key:** se clona, se instalan las dependencias y se ejecuta.
 
-**Requisitos:** Python 3.11 o superior (probado con 3.13) y `pip`. La GPU es opcional.
+**Requisitos:** Python 3.13 (es la versión con la que se probó) y `pip`. La GPU es opcional.
 
 ```bash
 git clone https://github.com/javi2481/detector-gorras-yolo11.git
@@ -328,8 +330,6 @@ En Colab, si el notebook no encuentra la carpeta `datos/`, clona este repo autom
 ├── resultados/
 │   ├── tabla_A_vs_B.csv             # métricas de las dos configuraciones
 │   └── casos_test_valid.csv         # cada predicción clasificada (TP / FP / FN / caja mal ajustada)
-├── docs/
-│   └── consigna.md                  # consigna del trabajo práctico
 ├── requirements.txt
 ├── LICENSE                          # licencia MIT
 └── README.md

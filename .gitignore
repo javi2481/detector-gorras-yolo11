@@ -1,6 +1,7 @@
-# Salidas de Ultralytics y dataset descargado de Roboflow
+# Salidas de Ultralytics (se generan al ejecutar el notebook)
 runs/
-TP2-AAII-Deteccion-Gorra-*/
+
+# Pesos: solo se suben los entrenados de modelos/ (yolo11n.pt y yolo11s.pt se descargan solos)
 *.pt
 !modelos/**/*.pt
 
